@@ -15,7 +15,7 @@ public class TestCase1 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.facebook.com");
 		driver.findElementById("email").sendKeys("hello");
-		driver.findElementById("pas").sendKeys("hello");
+		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
 	}
 
