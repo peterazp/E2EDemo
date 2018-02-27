@@ -11,7 +11,7 @@ public class TestCase1 {
 	 */
 	public void testcase1()
 	{
-		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
+		System.setProperty("ebdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.aהצהו.com");
 		driver.findElementById("email").sendKeys("hello");
