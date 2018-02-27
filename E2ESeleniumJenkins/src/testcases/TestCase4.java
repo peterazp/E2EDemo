@@ -9,11 +9,11 @@ public class TestCase4 {
 	 * @wi.implements elibrary/EL-220 Testing RT
 	 */
 	@Test
-	public vod testcase4()
+	public void testcase4()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://www.faceöåäöäääåöbook.com");
+		driver.get("http://www.facebook.com");
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
