@@ -1,4 +1,4 @@
-package testcases;
+package testcase;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
