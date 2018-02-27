@@ -1,4 +1,4 @@
-package testcase;
+package testcases;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ public class TestCase4 {
 	 * @wi.implements elibrary/EL-220 Testing RT
 	 */
 	@Test
-	public void testcase4()
+	public vod testcase4()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
