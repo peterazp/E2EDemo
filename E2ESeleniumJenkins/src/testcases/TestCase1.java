@@ -16,7 +16,7 @@ public class TestCase1 {
 		driver.get("http://www.הההההההה.com");
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("hello");
-		driver.qit();
+		//driver.quit();
 	}
 
 }
