@@ -13,10 +13,10 @@ public class TestCase1 {
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://www.הההההההה.com");
+		driver.get("http://www.facebook.com");
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("hello");
-		//driver.quit();
+		driver.quit();
 	}
 
 }
