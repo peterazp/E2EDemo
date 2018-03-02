@@ -7,7 +7,7 @@ public class TestCase1 {
 
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-220 chromedriver
+	 * @wi.implements elibrary/EL-58 change login
 	 */
 	public void testcase1()
 	{
@@ -17,7 +17,7 @@ public class TestCase1 {
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
-		// testing
+		
 	}
 
 }
