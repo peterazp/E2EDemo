@@ -7,14 +7,14 @@ public class TestCase1 {
 // hey
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-58 change login
+	 * @wi.implements elibrary/EL-222 change login
 	 */
 	public void testcase1()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://www.וצצהצצוצווצ.com");
-		driver.findElementById("email").sendKeys("helo");
+		driver.get("http://www.facebook.com");
+		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("helllo");
 		driver.quit();
 		
