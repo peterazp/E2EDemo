@@ -4,7 +4,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestCase3 {
-
+	/**
+	 * @wi.implements elibrary/EL-236 Testing RT
+	 */
 	@Test
 	public void testcase3()
 	{
