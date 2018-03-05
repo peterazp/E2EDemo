@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class TestCase4 {
 	// General comment
 	/**
-	 * @wi.implements elibrary/EL-220 Testing RT
+	 * @wi.implements elibrary/EL-236 Testing RT
 	 */
 	@Test
 	public void testcase4()
