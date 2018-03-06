@@ -6,12 +6,12 @@ import org.testng.annotations.Test;
 public class TestCase1 {
 // hey
 	@Test
-	
+	// New comment here
 	public void testcase1()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
-		driver.get("http://www.facebook.com");
+		driver.get("http://www.הצpהצהצו.com");
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("helllo");
 		driver.quit();
