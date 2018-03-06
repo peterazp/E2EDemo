@@ -6,9 +6,7 @@ import org.testng.annotations.Test;
 public class TestCase1 {
 // hey
 	@Test
-	/**
-	 * @wi.implements elibrary/EL-222 change login
-	 */
+	
 	public void testcase1()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
