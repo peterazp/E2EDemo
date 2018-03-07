@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestCase4 {
-	//Adding branch deveoper comment here	
+		
 	@Test
 	public void testcase4()
 	{
@@ -15,6 +15,5 @@ public class TestCase4 {
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
 	}
-// Adding comment on developer branch
-	// Adding another developer comments
+
 }
