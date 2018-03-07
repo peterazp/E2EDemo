@@ -4,9 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestCase1 {
-	/**
-	 * @wi.implements elibrary/EL-245 describing method
-	 */
+	
 	@Test
 	public void testcase1()
 	{
@@ -16,7 +14,7 @@ public class TestCase1 {
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("helllo");
 		driver.quit();
-		// Passing TC 1
+		
 	}
 
 }
