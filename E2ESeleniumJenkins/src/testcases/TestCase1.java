@@ -4,9 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestCase1 {
-	/**
-	 * @wi.implements elibrary/EL-251 describing method
-	 */
+	
 	@Test
 	public void testcase1()
 	{
@@ -18,5 +16,5 @@ public class TestCase1 {
 		driver.quit();
 		
 	}
-// Passing TC 1
+
 }
