@@ -4,9 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestCase1 {
-	/**
-	 * @wi.implements elibrary/EL-254 describing method
-	 */
+	
 	@Test
 	public void testcase1()
 	{
