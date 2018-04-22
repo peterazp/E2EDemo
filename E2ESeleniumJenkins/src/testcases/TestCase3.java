@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 public class TestCase3 {
 	
 	@Test
+	/**
+	* @wi.implements elibrary/EL-260 Trying RT
+	*/
 	public void testcase3()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
