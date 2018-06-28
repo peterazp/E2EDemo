@@ -7,7 +7,7 @@ public class TestCase4 {
 		
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-237 on feature-branch
+	 * @wi.implements elibrary/EL-343 on feature-branch
 	 */
 	public void testcase4()
 	{
