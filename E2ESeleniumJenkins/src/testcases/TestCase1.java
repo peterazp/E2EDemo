@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 public class TestCase1 {
 	
 	@Test
+	/**
+	* @wi.implements elibrary/EL-341 New Web Driver for Test Case 2
+	*/
 	public void testcase1()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
