@@ -7,7 +7,7 @@ public class TestCase2 {
 
 	@Test
 	/**
-	* @wi.implements elibrary/EL-259 New Web Driver for Test Case 2
+	* @wi.implements elibrary/EL-341 New Web Driver for Test Case 2
 	*/
 	public void testcase2()
 	{
