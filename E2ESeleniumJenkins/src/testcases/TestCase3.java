@@ -16,4 +16,5 @@ public class TestCase3 {
 		driver.quit();
 	}
 	// Comment here (developer), merge to master
+	// Newline on hotfix branch
 }
