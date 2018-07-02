@@ -6,6 +6,9 @@ import org.testng.annotations.Test;
 public class TestCase3 {
 	
 	@Test
+	/**
+	* @wi.implements elibrary/EL-343 A Comment on Master
+	*/
 	public void testcase3()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
@@ -15,6 +18,13 @@ public class TestCase3 {
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
 	}
+<<<<<<< HEAD
 	// Comment here (developer), merge to master
 	// Newline on hotfix branch
+=======
+
+// New comment on master
+	// Comment here (developer)
+
+>>>>>>> branch 'master' of https://github.com/peterazp/E2EDemo.git
 }

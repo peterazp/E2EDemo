@@ -4,10 +4,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestCase1 {
-
+// hey
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-243 describing method
+	 * @wi.implements elibrary/EL-341 general comment
 	 */
 	public void testcase1()
 	{
@@ -17,7 +17,7 @@ public class TestCase1 {
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("helllo");
 		driver.quit();
-		// Passing TC 1
+		// Hello sir
 	}
 // comment on dev
 }

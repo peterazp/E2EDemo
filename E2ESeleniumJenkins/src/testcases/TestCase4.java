@@ -7,8 +7,11 @@ public class TestCase4 {
 	//Adding branch deveoper comment here	
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-343 comment on developer
-	 */
+<<<<<<< HEAD
+	* @wi.implements elibrary/EL-343 A Comment on Master
+	*/
+
+
 	public void testcase4()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
