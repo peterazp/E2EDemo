@@ -20,7 +20,6 @@ public class TestCase3 {
 	}
 
 // New comment on master
-=======
 	// Comment here (developer)
 
 }

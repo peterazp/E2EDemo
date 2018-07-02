@@ -10,10 +10,8 @@ public class TestCase4 {
 <<<<<<< HEAD
 	* @wi.implements elibrary/EL-343 A Comment on Master
 	*/
-=======
-	 * @wi.implements elibrary/EL-343 comment on developer
-	 */
->>>>>>> branch 'developer' of https://github.com/peterazp/E2EDemo.git
+
+
 	public void testcase4()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
