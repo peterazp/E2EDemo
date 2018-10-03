@@ -7,7 +7,7 @@ public class TestCase4 {
 	//Adding branch deveoper comment here	
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-343 comment on developer
+	 * @wi.implements elibrary/EL-49 comment on developer
 	 */
 	public void testcase4()
 	{
@@ -18,5 +18,5 @@ public class TestCase4 {
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
 	}
-	//Adding branch deveoper comment here
+	//Adding branch developer comment here
 }
