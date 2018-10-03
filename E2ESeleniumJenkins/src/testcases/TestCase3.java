@@ -18,13 +18,13 @@ public class TestCase3 {
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
 	}
-<<<<<<< HEAD
+
 	// Comment here (developer), merge to master
 	// Newline on hotfix branch
-=======
+
 
 // New comment on master
 	// Comment here (developer)
 
->>>>>>> branch 'master' of https://github.com/peterazp/E2EDemo.git
+
 }
