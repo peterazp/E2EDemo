@@ -4,10 +4,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TestCase4 {
-	//Adding branch deveoper comment here	
+	//Adding branch devoper comment here	
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-49 comment on developer
+	 * @wi.implements elibrary/EL-442 comment on developer
 	 */
 	public void testcase4()
 	{
