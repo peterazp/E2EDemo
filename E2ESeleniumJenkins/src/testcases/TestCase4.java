@@ -6,18 +6,7 @@ import org.testng.annotations.Test;
 public class TestCase4 {
 	//Adding branch deveoper comment here	
 	@Test
-<<<<<<< HEAD
-	
-	/**
-	* @wi.implements elibrary/EL-260 A Comment on Master
-	*/
 
-
-=======
-	/**
-	 * @wi.implements elibrary/EL-343 on feature-branch
-	 */
->>>>>>> branch 'feature-branch' of https://github.com/peterazp/E2EDemo.git
 	public void testcase4()
 	{
 		System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
