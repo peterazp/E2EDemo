@@ -7,7 +7,7 @@ public class TestCase1 {
 
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-90 describing method
+	 * @wi.implements elibrary/EL-470 describing method
 	 */
 	public void testcase1()
 	{
