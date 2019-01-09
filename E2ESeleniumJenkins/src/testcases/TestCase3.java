@@ -18,6 +18,7 @@ public class TestCase3 {
 		driver.findElementById("pass").sendKeys("hello");
 		driver.quit();
 	}
+<<<<<<< HEAD
 
 	// Comment here (developer), merge to master
 	// Newline on hotfix branch
@@ -27,4 +28,7 @@ public class TestCase3 {
 	// Comment here (developer)
 
 
+=======
+// DPD-39
+>>>>>>> branch 'feature-branch' of https://github.com/peterazp/E2EDemo.git
 }

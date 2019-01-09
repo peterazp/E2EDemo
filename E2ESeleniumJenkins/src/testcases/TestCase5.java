@@ -3,11 +3,11 @@ package testcases;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class TestCase1 {
+public class TestCase5 {
 // hey
 	@Test
 	/**
-	 * @wi.implements elibrary/EL-470 my comment
+	 * @wi.implements elibrary/EL-222 change login
 	 */
 	public void testcase1()
 	{
@@ -17,7 +17,7 @@ public class TestCase1 {
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("helllo");
 		driver.quit();
-		// Hello sir
+		
 	}
 
 }
